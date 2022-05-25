@@ -1,0 +1,47 @@
+header {
+    background-color: #82D3D9;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    color: #14575C;
+    text-align: center;
+}
+
+body {
+    background-color: #C4EFF2;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    text-align: center;
+
+}
+
+.nav li {
+    display: inline;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+main {
+    text-align: center;
+}
+
+.pic li {
+    display: inline
+    
+
+
+}
