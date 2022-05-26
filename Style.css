@@ -2,12 +2,13 @@ header {
     background-color: #82D3D9;
     margin: 0;
     padding: 0;
-    border: 0;
+    
 }
 
 h1 {
     color: #14575C;
     text-align: center;
+    border-color: 50px solid black;
 }
 
 body {
@@ -45,4 +46,6 @@ main {
 
 
 }
-
+.caelin div {
+    border: black;
+}
