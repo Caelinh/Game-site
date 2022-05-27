@@ -1,22 +1,42 @@
+let firstName = prompt("What is your name?");
 
-let rNum = Math.floor(Math.random()*3);
 
 
 function askName(){
-    let firstName = prompt ("What is your name?") ;
-    
-    if (firstName) {
-        document.write("Hello " + firstName + "!");
-    } else if(!firstName) {
-        firstName = prompt("Please enter your name");
-        document.write("Hello " + firstName + "!");
-    } 
-    }
+   if(firstName){
+       document.write(firstName)
+   } else {
+        while (!firstName){
+            firstName= prompt("please try again")
+        }
+        document.write(firstName)
+   }
+}
 
+let cChoice = prompt("Pick one: Red, Blue, Black");
+let userChoice = cChoice.toLowerCase();
 
-function picChooser() {
-    if (rNum==1){
-        const game1 = "https://cdna.artstation.com/p/assets/images/images/043/897/516/large/seed-seven-twodots-seedseven-eldenring-1.jpg?1638544010"
-        return game1
+while (userChoice != "red" && userChoice != "blue" && userChoice != "black") {
+    cChoice = prompt("Please try again...Red, Blue or Black");
+    userChoice = cChoice.toLowerCase();
+}
+
+function red(){
+   if (userChoice == "red") {
+       document.write("Nice color choice!");
+   }
+}
+function blue(){
+    if (userChoice == "blue") {
+        document.write("Nice color choice!");
     }
+ }
+function black(){
+    if (userChoice == "black") {
+        document.write("Nice color choice!");
+    }
+ }
+
+function name(){
+    document.write(firstName);
 }

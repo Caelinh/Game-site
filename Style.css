@@ -1,14 +1,35 @@
 header {
     background-color: #82D3D9;
-    margin: 0;
-    padding: 0;
-    
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 35px;
+    border: solid 5px #365759;
+    height: 165px;
+    box-shadow: 2px 2px 10px rgb(88, 136, 152);
 }
 
-h1 {
+h1, h3 {
     color: #14575C;
     text-align: center;
-    border-color: 50px solid black;
+   
+}
+.title {
+    margin: auto;
+    margin-top: 5px;
+    width: 40%;
+    border: solid 5px #365759;
+    background-color: #C4EFF2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+  
+}
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color:#C4EFF2;
+    
+
 }
 
 body {
@@ -16,6 +37,7 @@ body {
     margin: 0;
     margin-top: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -26,26 +48,113 @@ ul {
 
 .nav {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #253f41;
+    
 
 }
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+a:hover {
+    color: hotpink;
+  }
 
 .nav li {
     display: inline;
     font-size: 30px;
     margin-right: 250px;
     margin-left: 250px;
+    
 }
 
 main {
     text-align: center;
 }
 
-.pic li {
-    display: inline
-    
+#anim {
+    animation-name: spin, depth;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(-360deg);
+    }
+  }
+  @keyframes depth {
+    0% {
+      text-shadow: 0 0 black;
+    }
+    25% {
+      text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+    }
+    50% {
+      text-shadow: 0 0 black;
+    }
+    75% {
+      text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
+        -5px 0 black;
+    }
+    100% {
+      text-shadow: 0 0 black;
+    }
+  }
+  
 
-
+#greeting{
+    text-shadow: 2px 2px 4px #33adb5;
+    -webkit-text-stroke: .01px rgb(0, 0, 0);
+	-webkit-text-fill-color: #253f41;
+    font-size: 40px;
 }
-.caelin div {
-    border: black;
+
+#anim{
+  margin: auto;
+  text-align: center;
+}
+
+#caelin {
+    border: solid 10px #253f41;
+    padding: 10px;
+    background-color: #365759;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 5px rgb(88, 136, 152);
+    color: #82D3D9;
+}
+
+#nick {
+    border: solid 10px #253f41;
+    padding: 10px;
+    background-color: #365759;
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 8px 8px 5px rgb(88, 136, 152);
+    color: #82D3D9;
+}
+
+
+#black {
+    color: black;
+}
+
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+footer {
+    text-align: center;
 }
