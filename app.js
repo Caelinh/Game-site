@@ -7,7 +7,7 @@ function askName(){
        document.write(firstName)
    } else {
         while (!firstName){
-            firstName= prompt("please try again")
+            firstName= prompt("please try your name again")
         }
         document.write(firstName)
    }
