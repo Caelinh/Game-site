@@ -40,3 +40,15 @@ function black(){
 function name(){
     document.write(firstName);
 }
+
+
+function review() {
+    let stars = prompt("How many stars would you rate my site? 1-5") 
+    for (let i = 1; i <= stars; i++){
+        document.write("<img style='height:20px;width:20px' src='star.png' />")
+}
+}
+
+function displayStars() {
+    document.write(theStars);
+}
