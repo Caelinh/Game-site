@@ -8,11 +8,14 @@ header {
     box-shadow: 2px 2px 10px rgb(88, 136, 152);
 }
 
-h1, h3 {
+h1,
+h3 {
     color: #14575C;
     text-align: center;
-   
+    text-shadow: 2px 2px 4px #33adb5;
+
 }
+
 .title {
     margin: auto;
     margin-top: 5px;
@@ -20,15 +23,16 @@ h1, h3 {
     border: solid 5px #365759;
     background-color: #C4EFF2;
     border-radius: 10px;
-    box-sizing: border-box;
-    
-  
+
+
+
 }
+
 #title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
-    background-color:#C4EFF2;
-    
+    background-color: #C4EFF2;
+
 
 }
 
@@ -53,20 +57,22 @@ ul {
     
 
 }
+
 a:link {
     text-decoration: none;
     color: black;
-  }
+}
+
 a:hover {
-    color: hotpink;
-  }
+    color: rgba(242, 244, 247, 0.733);
+}
 
 .nav li {
     display: inline;
     font-size: 30px;
     margin-right: 250px;
     margin-left: 250px;
-    
+
 }
 
 main {
@@ -78,45 +84,52 @@ main {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 6s;
-  }
-  @keyframes spin {
-    0% {
-      transform: rotateY(0deg);
-    }
-    100% {
-      transform: rotateY(-360deg);
-    }
-  }
-  @keyframes depth {
-    0% {
-      text-shadow: 0 0 black;
-    }
-    25% {
-      text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
-    }
-    50% {
-      text-shadow: 0 0 black;
-    }
-    75% {
-      text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
-        -5px 0 black;
-    }
-    100% {
-      text-shadow: 0 0 black;
-    }
-  }
-  
+}
 
-#greeting{
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(-360deg);
+    }
+}
+
+@keyframes depth {
+    0% {
+        text-shadow: 0 0 black;
+    }
+
+    25% {
+        text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+    }
+
+    50% {
+        text-shadow: 0 0 black;
+    }
+
+    75% {
+        text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
+            -5px 0 black;
+    }
+
+    100% {
+        text-shadow: 0 0 black;
+    }
+}
+
+
+#greeting {
     text-shadow: 2px 2px 4px #33adb5;
     -webkit-text-stroke: .01px rgb(0, 0, 0);
-	-webkit-text-fill-color: #253f41;
+    -webkit-text-fill-color: #253f41;
     font-size: 40px;
 }
 
-#anim{
-  margin: auto;
-  text-align: center;
+#anim {
+    margin: auto;
+    text-align: center;
 }
 
 #caelin {
@@ -129,6 +142,7 @@ main {
     border-radius: 25px;
     box-shadow: 8px 8px 5px rgb(88, 136, 152);
     color: #82D3D9;
+    text-shadow: 2px 2px 4px #060c0c;
 }
 
 #nick {
@@ -140,6 +154,7 @@ main {
     border-radius: 25px;
     box-shadow: 8px 8px 5px rgb(88, 136, 152);
     color: #82D3D9;
+    text-shadow: 2px 2px 4px #060c0c;
 }
 
 
